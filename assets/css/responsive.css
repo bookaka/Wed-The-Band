@@ -1,0 +1,125 @@
+/* *PC */
+@media(min-width:1024px){
+
+}
+ /* *TABLET + MOBIE */
+
+@media(max-width: 1023px){
+    .tour-section .places-list .buys-btn{
+        padding: 14px 14px;
+    }
+    .contact-ip .form-control{
+        padding: 14px 8px;
+    }
+    .contact-btn {
+        padding: 15px 17px;
+    }
+    #footer .socials-list a{
+        font-size: 36px;
+        margin: 0 8px;
+    }
+    #footer .socials-list{
+        max-width: 100%;
+    }
+    #footer .copyright{
+        font-size: 36px;
+       
+    }
+    #footer .copyright a{
+        /* font-size: 36px; */
+        padding: 10px 0;
+        display: inline-block;
+    }
+    .contact-infor{
+        line-height: 2;
+    }
+}
+
+ /* *TABLET */
+@media(min-width:740px) and (max-width:1023px){
+
+}
+
+ /* *MOBIE */
+ @media(max-width:739px){
+    #header{
+        overflow: hidden;
+    }
+
+    #nav{
+        display: block;
+    }
+    #nav li{
+        width: 100%;
+    }
+    /* #nav :first-child{
+        width: 96px !important;
+    }
+    #nav li a:first-child{
+        display: inline-block;
+    } */
+
+    #nav > li{
+        display: block;
+    }
+    #header .menu-mobie-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #FFF;
+        padding: 4px 41px;
+
+    }
+
+    #content .member-item{
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    #content .member-name{
+        margin: 16px 0;
+    }
+    #content .member-list{
+        margin-top: 32px;
+    }
+    .tour-section .places-list {
+        margin-bottom: 36px;
+    }
+    .tour-section .places-list .places-item {
+        width: 100%     ;
+        margin-bottom: 16px;
+    }
+    .tour-section .places-list .buys-btn {
+        width: 100%;
+    }
+
+    .contact-infor {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact-ip{
+        width: 100%;
+    }
+    .contact-ip-1{
+        display: block;
+    }
+    .contact-ip .id {
+        margin-bottom: 8px;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+
+
+ }
